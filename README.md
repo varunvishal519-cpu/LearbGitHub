@@ -11,8 +11,11 @@ Author :- Varun Vishal(Trying againf)
 
 <p><b>Step to work with git</p>
 <br>
-<p>git clone https://github.com/your-username/your-repo.git</p><!--clone code which is also called local repo-->
-<p>git status</p><!--to check the status -->
- <p>git add . </p>  <!--add all the files for commit in local repo -->
-<p>git commit -m "any meanigfull message here"</p><!--commit code on local repo-->
-<p>git push origin main</p>
+<p>git clone https://github.com/your-username/your-repo.git <!--clone code which is also called local repo--></p>
+<p>git status <!--to check the status --></p>
+ <p>git add . <!--add all the files for commit in local repo --></p>  
+<p>git commit -m "any meanigfull message here" <!--commit code on local repo--></p>
+<p>git push origin main <!--Tu push the local changes to origin or main code on github--></p>
+
+
+<!--To add project from syatem to repositry-->
