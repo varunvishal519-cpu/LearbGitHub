@@ -38,4 +38,25 @@ Author :- Varun Vishal(Trying againf)
 <p>git checkout 'Branch name'</p> <!-- to navigate from one branch to other-->
 <p>git ckeckout -b 'Branch name'</p><!-- to create new branch -->
 <p>git ckeckout -d 'Branch name'</p><!-- to delete particular branch --> 
-<p>git ckeckout -d 'Branch name'</p><!-- to delete particular branch --> 
+
+# Merge Branch
+
+<h2>Way 1</h2>
+<p>git diff 'branch name'</p> <!--to compare commits,branches,files,manymore-->
+<p>git merge 'branch name'</p> <!-- to merge two branches (But genearally we use pull request to merge anuthing)-->
+<br>
+<h2>Way 2</h2>
+<p>through PR (Pull request)</p>
+
+
+# Pull request
+
+<p>It lets you tell other about the changes u have pushed to a branch in a repositry or github</p>
+
+# Pull command
+
+<p>git pull origin main : (used to fetch or download content from remote repo and immediately update the local repo to match the content)</p>
+
+
+
+
