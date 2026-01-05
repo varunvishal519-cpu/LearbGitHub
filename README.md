@@ -69,10 +69,10 @@ Author :- Varun Vishal(Trying againf)
 <p>Case 2 : commited change (for one commit)</p>
 <ul>
    <li>git reset head~1</li>
-<ul>
+</ul>
 
 <p>Case 2 : commited change (for many commit)</p>
 <ul>
    <li>git reset 'commit hash'</li> <!--u can get hash by using 'git log'-->
    <li>git reset --hard 'commit hash'</li><!--even to remove the commits from ur vs code or files-->
-<ul>
+</ul>
