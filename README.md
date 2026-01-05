@@ -1,5 +1,4 @@
 # LearbGitHub
-This repositry is to learn about github
 <br>
 Author :- Varun Vishal(Trying againf)
 <br>
@@ -11,11 +10,26 @@ Author :- Varun Vishal(Trying againf)
 
 <p><b>Step to work with git</p>
 <br>
-<p>git clone https://github.com/your-username/your-repo.git <!--clone code which is also called local repo--></p>
-<p>git status <!--to check the status --></p>
- <p>git add . <!--add all the files for commit in local repo --></p>  
-<p>git commit -m "any meanigfull message here" <!--commit code on local repo--></p>
-<p>git push origin main <!--Tu push the local changes to origin or main code on github--></p>
+<p>git clone https://github.com/your-username/your-repo.git </p><!--clone code which is also called local repo-->
+<p>git status </p> <!--to check the status -->
+ <p>git add . </p>  <!--add all the files for commit in local repo -->
+<p>git commit -m "any meanigfull message here" </p><!--commit code on local repo-->
+<p>git push origin main </p><!--Tu push the local changes to origin or main code on github-->
 
 
-<!--To add project from syatem to repositry-->
+# To add project from system to github repositry (Local to Remote )
+
+<p>git init</p><!--to initiate or make system code as git-->
+<p>git add .</p>
+<p>git commit -m "saome usefull meassaged"</p>
+<!-- then create a repo on git hub like constructionwork and anything u want-->
+<p>git add remote origin https://github.com/your-username/your-repo.git</p> <!-- to set the "origin" name (if we wanted we can set origin name to anything we want ex : "git add remote cons https://github.com/your-username/your-repo.git" then to push we can write "git push cons main" )-->
+<p>git remote -v</p> <!--to check git remote-->
+<p>git branch</p> <!-- to check the code is on which branch-->
+<p>git branch -M main</p><!--to change the branch name to "main"-->
+<p>git push origin main</p> <!--to push the code to remote or main or github-->
+
+
+
+# Git Branches
+
