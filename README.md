@@ -58,5 +58,21 @@ Author :- Varun Vishal(Trying againf)
 <p>git pull origin main : (used to fetch or download content from remote repo and immediately update the local repo to match the content)</p>
 
 
+# Undoing Changes
 
+<p>Case 1 : staged changes (which is att add . stage)</p>
+<ul>
+  <li>git reset 'file name'</li> <!-- to reset the file which is at add . stage-->
+  <li>git reset</li><!--to reset all the files at add. stage-->
+</ul>
+<br>
+<p>Case 2 : commited change (for one commit)</p>
+<ul>
+   <li>git reset head~1</li>
+<ul>
 
+<p>Case 2 : commited change (for many commit)</p>
+<ul>
+   <li>git reset 'commit hash'</li> <!--u can get hash by using 'git log'-->
+   <li>git reset --hard 'commit hash'</li><!--even to remove the commits from ur vs code or files-->
+<ul>
