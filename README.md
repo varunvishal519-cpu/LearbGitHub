@@ -69,6 +69,11 @@
 <p>git pull origin main : (used to fetch or download content from remote repo and immediately update the local repo to match the content)</li>
 
 
+# To check log
+
+<p>git log</p>
+<p>git log --oneline</p>
+
 # Undoing Changes
 
 <p>Case 1 : staged changes (which is att add . stage)</li>
@@ -87,3 +92,11 @@
    <li>git reset 'commit hash'</li> <!--u can get hash by using 'git log'-->
    <li>git reset --hard 'commit hash'</li><!--even to remove the commits from ur vs code or files-->
 </ul>
+
+# Git Working Flow
+
+<p>git init (working directory) ---> git add . (Staging area) --->git commit -m 'meassage' (Commit to local repo) --->git add remote origin https://github.com/your-username/your-repo.git (add ur remote repo and name it 'origin' u can name it anything u want)  ---> git push origin 'Branch name' (push ur local committed repo code to github or remote)</p>
+
+
+<p>.gitignore  (gitignore is a file that tells gits to which file and folder to ignore ,It is a way to prevent git to track certain file and folders)</p> 
+<p>.gitkeep  (gitkeep is a file that tells gits to which empty folder to keep)</p>
