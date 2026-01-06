@@ -4,11 +4,11 @@
 <br>
 <p>Git Command to set global and loacal user to clone Project and how to add ,commit and push in a github repositry</p>
 <ul>
-<li>git config --global user.name 'xyz-cpu' (command to create global user name to commit code)</li>    <!--command to create global user name to commit code -->
-<li>git config --global user.email 'xyz@gmail.com'  (coomand to create global email to commit code)</li><!--coomand to create global email to commit code-->
-<li>git config user.name 'abx'  (command to create local user name to commit code)</li><!--command to create local user name to commit code -->
-<li>git config user.email 'abc@example.com'  (coomand to create local email to commit code)</li><!--coomand to create local email to commit code-->
-<li>git config --list  (To check what we have config )</li>
+<li>`git config --global user.name 'xyz-cpu'`    (command to create global user name to commit code)</li>    <!--command to create global user name to commit code -->
+<li>`git config --global user.email 'xyz@gmail.com'`    (coomand to create global email to commit code)</li><!--coomand to create global email to commit code-->
+<li>`git config user.name 'abx'`    (command to create local user name to commit code)</li><!--command to create local user name to commit code -->
+<li>`git config user.email 'abc@example.com'`    (coomand to create local email to commit code)</li><!--coomand to create local email to commit code-->
+<li>`git config --list`    (To check what we have config )</li>
 
 
 <li>git clone https://github.com/your-username/your-repo.git   (clone code which is also called local repo)</li><!--clone code which is also called local repo-->
