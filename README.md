@@ -4,18 +4,18 @@
 <br>
 <p>Git Command to set global and loacal user to clone Project and how to add ,commit and push in a github repositry</p>
 <ul>
-<li>`git config --global user.name 'xyz-cpu'`    (command to create global user name to commit code)</li>    <!--command to create global user name to commit code -->
-<li>`git config --global user.email 'xyz@gmail.com'`    (coomand to create global email to commit code)</li><!--coomand to create global email to commit code-->
-<li>`git config user.name 'abx'`    (command to create local user name to commit code)</li><!--command to create local user name to commit code -->
-<li>`git config user.email 'abc@example.com'`    (coomand to create local email to commit code)</li><!--coomand to create local email to commit code-->
-<li>`git config --list`    (To check what we have config )</li>
+<li>git config --global user.name 'xyz-cpu'</li>    <!--command to create global user name to commit code -->
+<li>git config --global user.email 'xyz@gmail.com'</li><!--coomand to create global email to commit code-->
+<li>git config user.name 'abx'</li><!--command to create local user name to commit code -->
+<li>git config user.email 'abc@example.com'</li><!--coomand to create local email to commit code-->
+<li>To check what we have config : git config --list</li>
 
 
-<li>git clone https://github.com/your-username/your-repo.git   (clone code which is also called local repo)</li><!--clone code which is also called local repo-->
-<li>git status   (to check the status)</li> <!--to check the status -->
-<li>git add .   (add all the files for commit in local repo)</li>  <!--add all the files for commit in local repo -->
-<li>git commit -m "any meanigfull message here"   (commit code on local repo)</li><!--commit code on local repo-->
-<li>git push origin 'main'   (Tu push the local changes to origin or 'main' branch on github)</li><!--Tu push the local changes to origin or 'main' branch on github-->
+<li>git clone https://github.com/your-username/your-repo.git </li><!--clone code which is also called local repo-->
+<li>git status </li> <!--to check the status -->
+<li>git add . </li>  <!--add all the files for commit in local repo -->
+<li>git commit -m "any meanigfull message here" </li><!--commit code on local repo-->
+<li>git push origin 'main' </li><!--Tu push the local changes to origin or 'main' branch on github-->
 </ul>
 
 
@@ -106,9 +106,9 @@
 
 <p>Some extra command to explore git intrnals</p>
 <ul>
-<li>git log --oneline</li>
-<li>git show -s --pretty=raw 'commit hash'</li>
-<li>git ls --tree 'tree id'</li>
-<li>git show 'blob id'</li>
+<li>git log --oneline</li>   <!--To get the commit hash-->
+<li>git show -s --pretty=raw 'commit hash'</li>  <!--To get tree id-->
+<li>git ls-tree 'tree id'</li>   <!--to get the blob id-->
+<li>git show 'blob id'</li>    <!--to show the details of blob or files-->
 <li>git cat-file -p 'commit id'</li>
 </ul>
