@@ -41,7 +41,8 @@
 <li>git branch</li> <!--to check branch-->
 <li>git branch -m main</li><!--to change the braanch name-->
 <li>git checkout 'Branch name'</li> <!-- to navigate from one branch to other-->
-<li>git ckeckout -b 'Branch name'</li><!-- to create new branch -->
+<li>git branch 'Branch name'</li><!-- to create a new branch but u will stay at the old branch -->
+<li>git ckeckout -b 'Branch name'</li><!-- to create a new branch and u wil navigate to new branch -->
 <li>git ckeckout -d 'Branch name'</li><!-- to delete particular branch --> 
 </ul>
 
